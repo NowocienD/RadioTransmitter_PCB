@@ -12740,9 +12740,9 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Connectors">
+<library name="Connectors" urn="urn:adsk.eagle:library:25621963">
 <packages>
-<package name="1751248" urn="urn:adsk.eagle:footprint:24782378/1" locally_modified="yes">
+<package name="1751248" urn="urn:adsk.eagle:footprint:24782378/2" library_version="1" library_locally_modified="yes">
 <description>double ARK 3.5mm connector</description>
 <wire x1="-3.75" y1="3.65" x2="3.75" y2="3.65" width="0.1016" layer="21"/>
 <wire x1="-3.75" y1="3.65" x2="-3.75" y2="1.9123" width="0.1016" layer="21"/>
@@ -12826,7 +12826,7 @@ Source: www.kingbright.com</description>
 <rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 </package>
-<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes">
+<package name="1X01" urn="urn:adsk.eagle:footprint:25621968/1" library_version="1" library_locally_modified="yes">
 <description>Single PIN HEADER</description>
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.6764" shape="octagon"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
@@ -12835,16 +12835,8 @@ Source: www.kingbright.com</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1751248" urn="urn:adsk.eagle:package:24782377/4" type="model">
-<description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
+<package3d name="1751248" urn="urn:adsk.eagle:package:24782377/5" type="model" library_version="1" library_locally_modified="yes">
+<description>double ARK 3.5mm connector</description>
 <packageinstances>
 <packageinstance name="1751248"/>
 </packageinstances>
@@ -12855,15 +12847,15 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <packageinstance name="ML10"/>
 </packageinstances>
 </package3d>
-<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model">
-<description>PIN HEADER</description>
+<package3d name="1X01" urn="urn:adsk.eagle:package:25621971/1" type="model" library_version="1" library_locally_modified="yes">
+<description>Single PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X01"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="SCHRAUBKLEMME">
+<symbol name="SCHRAUBKLEMME" urn="urn:adsk.eagle:symbol:25621966/1" library_version="1" library_locally_modified="yes">
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
@@ -12873,7 +12865,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="13.97" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="K" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="10P">
+<symbol name="10P" urn="urn:adsk.eagle:symbol:25621965/1" library_version="1" library_locally_modified="yes">
 <wire x1="3.81" y1="-7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="-3.81" y1="7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
@@ -12901,7 +12893,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pin name="9" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="10" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas"/>
 </symbol>
-<symbol name="PINHD1">
+<symbol name="PINHD1" urn="urn:adsk.eagle:symbol:25621964/1" library_version="1" library_locally_modified="yes">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
@@ -12912,7 +12904,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARK-3.5MM" prefix="X">
+<deviceset name="ARK-3.5MM" urn="urn:adsk.eagle:component:25621975/1" prefix="X" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
 Bemessungsspannung: 160 V&lt;br&gt;
@@ -12933,7 +12925,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <connect gate="-2" pin="K" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24782377/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24782377/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -12941,7 +12933,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ML10" prefix="SV" uservalue="yes">
+<deviceset name="ML10" urn="urn:adsk.eagle:component:25621974/1" prefix="SV" uservalue="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;HARTING&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="10P" x="0" y="0"/>
@@ -12975,7 +12967,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<deviceset name="PINHD-1X1" urn="urn:adsk.eagle:component:25621973/1" prefix="JP" uservalue="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD1" x="0" y="0"/>
@@ -12986,7 +12978,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25621971/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13144,6 +13136,481 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-reed">
+<description>&lt;b&gt;Reed switsches&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MK6-6" urn="urn:adsk.eagle:footprint:27512/1" locally_modified="yes">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<pad name="1" x="-8.89" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="8.89" y="0" drill="0.6" diameter="1.016"/>
+<text x="-7.62" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MK15" urn="urn:adsk.eagle:footprint:27505/1">
+<description>&lt;b&gt;Reed Sensors for SMD Mounting&lt;/b&gt;&lt;p&gt;
+MEDER electronic&lt;br&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/34737.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="7.9" y1="1.15" x2="7.9" y2="-1.15" width="0.2032" layer="21"/>
+<wire x1="7.9" y1="-1.15" x2="-7.9" y2="-1.15" width="0.2032" layer="21"/>
+<wire x1="-7.9" y1="-1.15" x2="-7.9" y2="1.15" width="0.2032" layer="21"/>
+<wire x1="-7.9" y1="1.15" x2="7.9" y2="1.15" width="0.2032" layer="21"/>
+<smd name="1" x="-9.1" y="0" dx="2" dy="1.3" layer="1"/>
+<smd name="2" x="9.1" y="0" dx="2" dy="1.3" layer="1"/>
+<text x="-6.985" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-9.75" y1="-0.35" x2="-7.9" y2="0.35" layer="51"/>
+<rectangle x1="7.9" y1="-0.35" x2="9.75" y2="0.35" layer="51" rot="R180"/>
+</package>
+<package name="CT10-G4" urn="urn:adsk.eagle:footprint:27506/1">
+<description>&lt;b&gt;CT10 Series Molded Switch&lt;/b&gt;&lt;p&gt;
+COTO TECHNOLOGY / www.cotorelay.com&lt;br&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91368.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="6.3" y1="1.1" x2="6.3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="6.3" y1="-1.1" x2="-6.3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-6.3" y1="-1.1" x2="-6.3" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-6.3" y1="1.1" x2="6.3" y2="1.1" width="0.2032" layer="21"/>
+<smd name="1" x="-9.145" y="0" dx="2" dy="1.3" layer="1"/>
+<smd name="2" x="9.145" y="0" dx="2" dy="1.3" layer="1"/>
+<text x="-6.1802" y="1.3302" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.1802" y="-3.1082" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-9.7" y1="-0.375" x2="-6.4" y2="0.375" layer="51"/>
+<rectangle x1="6.4" y1="-0.375" x2="9.7" y2="0.375" layer="51" rot="R180"/>
+</package>
+<package name="CT10-G1" urn="urn:adsk.eagle:footprint:27507/1">
+<description>&lt;b&gt;CT10 Series Molded Switch&lt;/b&gt;&lt;p&gt;
+COTO TECHNOLOGY / www.cotorelay.com&lt;br&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91368.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="5.7" y1="1.1" x2="5.7" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="5.7" y1="-1.1" x2="-5.7" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="-1.1" x2="-5.7" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="1.1" x2="5.7" y2="1.1" width="0.2032" layer="21"/>
+<smd name="1" x="-7.62" y="0" dx="2" dy="1.3" layer="1"/>
+<smd name="2" x="7.62" y="0" dx="2" dy="1.3" layer="1"/>
+<text x="-5.5802" y="1.3302" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5802" y="-3.1082" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-8.175" y1="-0.375" x2="-5.7" y2="0.375" layer="51"/>
+<rectangle x1="5.7" y1="-0.375" x2="8.175" y2="0.375" layer="51" rot="R180"/>
+</package>
+<package name="CT10-A2" urn="urn:adsk.eagle:footprint:27508/1">
+<description>&lt;b&gt;CT10 Series Molded Switch&lt;/b&gt;&lt;p&gt;
+COTO TECHNOLOGY / www.cotorelay.com&lt;br&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91368.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="5.7" y1="1.1" x2="5.7" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="5.7" y1="-1.1" x2="-5.7" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="-1.1" x2="-5.7" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-5.7" y1="1.1" x2="5.7" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-6.25" y1="1.5" x2="6.25" y2="1.5" width="0" layer="20"/>
+<wire x1="6.25" y1="1.5" x2="6.25" y2="-1.5" width="0" layer="20"/>
+<wire x1="6.25" y1="-1.5" x2="-6.25" y2="-1.5" width="0" layer="20"/>
+<wire x1="-6.25" y1="-1.5" x2="-6.25" y2="1.5" width="0" layer="20"/>
+<smd name="1" x="-7.5" y="0" dx="2" dy="1.3" layer="1"/>
+<smd name="2" x="7.5" y="0" dx="2" dy="1.3" layer="1"/>
+<text x="-5.5" y="1.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-7.86" y1="-0.505" x2="-5.7" y2="0.505" layer="51"/>
+<rectangle x1="5.7" y1="-0.505" x2="7.86" y2="0.505" layer="51" rot="R180"/>
+</package>
+<package name="MK6-10" urn="urn:adsk.eagle:footprint:27509/1">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-14.2" y1="1.8" x2="14.2" y2="1.8" width="0.2032" layer="21"/>
+<wire x1="14.2" y1="1.8" x2="14.2" y2="0.2" width="0.2032" layer="21"/>
+<wire x1="14.2" y1="0.2" x2="12.2" y2="-1.8" width="0.2032" layer="21" curve="-90"/>
+<wire x1="12.2" y1="-1.8" x2="-12.2" y2="-1.8" width="0.2032" layer="21"/>
+<wire x1="-12.2" y1="-1.8" x2="-14.2" y2="0.2" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-14.2" y1="0.2" x2="-14.2" y2="1.8" width="0.2032" layer="21"/>
+<pad name="1" x="-12.7" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="12.7" y="0" drill="0.6" diameter="1.016"/>
+<text x="-10.16" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MK6-8-A" urn="urn:adsk.eagle:footprint:27510/1">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-9.505" y1="1.55" x2="9.505" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="9.505" y1="1.55" x2="9.505" y2="-1.55" width="0.2032" layer="21" curve="-180"/>
+<wire x1="9.505" y1="-1.55" x2="-9.505" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-9.505" y1="-1.55" x2="-9.505" y2="1.55" width="0.2032" layer="21" curve="-180"/>
+<pad name="1" x="-10.16" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="10.16" y="0" drill="0.6" diameter="1.016"/>
+<text x="-10.16" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MK6-7" urn="urn:adsk.eagle:footprint:27511/1">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-8.235" y1="1.55" x2="8.235" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="8.235" y1="1.55" x2="8.235" y2="-1.55" width="0.2032" layer="21" curve="-180"/>
+<wire x1="8.235" y1="-1.55" x2="-8.235" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-8.235" y1="-1.55" x2="-8.235" y2="1.55" width="0.2032" layer="21" curve="-180"/>
+<pad name="1" x="-8.89" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="8.89" y="0" drill="0.6" diameter="1.016"/>
+<text x="-8.89" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MK6-5" urn="urn:adsk.eagle:footprint:27513/1">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-5.545" y1="1.55" x2="5.495" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="5.495" y1="1.55" x2="5.495" y2="-1.55" width="0.2032" layer="21" curve="-180"/>
+<wire x1="5.495" y1="-1.55" x2="-5.545" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-5.545" y1="-1.55" x2="-5.545" y2="1.55" width="0.2032" layer="21" curve="-180"/>
+<pad name="1" x="-6.35" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="6.35" y="0" drill="0.6" diameter="1.016"/>
+<text x="-6.35" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MK6-4" urn="urn:adsk.eagle:footprint:27514/1">
+<description>&lt;b&gt;Reed Sonsor for PCB Mountung&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/91181.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-4.375" y1="1.55" x2="4.375" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="4.375" y1="1.55" x2="4.375" y2="-1.55" width="0.2032" layer="21" curve="-180"/>
+<wire x1="4.375" y1="-1.55" x2="-4.375" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-4.375" y1="-1.55" x2="-4.375" y2="1.55" width="0.2032" layer="21" curve="-180"/>
+<pad name="1" x="-5.08" y="0" drill="0.6" diameter="1.016"/>
+<pad name="2" x="5.08" y="0" drill="0.6" diameter="1.016"/>
+<text x="-5.08" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MK6-6" urn="urn:adsk.eagle:package:27523/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-6"/>
+</packageinstances>
+</package3d>
+<package3d name="MK15" urn="urn:adsk.eagle:package:27517/1" type="box">
+<description>Reed Sensors for SMD Mounting
+MEDER electronic
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK15"/>
+</packageinstances>
+</package3d>
+<package3d name="CT10-G4" urn="urn:adsk.eagle:package:27519/1" type="box">
+<description>CT10 Series Molded Switch
+COTO TECHNOLOGY / www.cotorelay.com
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="CT10-G4"/>
+</packageinstances>
+</package3d>
+<package3d name="CT10-G1" urn="urn:adsk.eagle:package:27518/1" type="box">
+<description>CT10 Series Molded Switch
+COTO TECHNOLOGY / www.cotorelay.com
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="CT10-G1"/>
+</packageinstances>
+</package3d>
+<package3d name="CT10-A2" urn="urn:adsk.eagle:package:27521/1" type="box">
+<description>CT10 Series Molded Switch
+COTO TECHNOLOGY / www.cotorelay.com
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="CT10-A2"/>
+</packageinstances>
+</package3d>
+<package3d name="MK6-10" urn="urn:adsk.eagle:package:27520/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-10"/>
+</packageinstances>
+</package3d>
+<package3d name="MK6-8-A" urn="urn:adsk.eagle:package:27522/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-8-A"/>
+</packageinstances>
+</package3d>
+<package3d name="MK6-7" urn="urn:adsk.eagle:package:27527/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-7"/>
+</packageinstances>
+</package3d>
+<package3d name="MK6-5" urn="urn:adsk.eagle:package:27524/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-5"/>
+</packageinstances>
+</package3d>
+<package3d name="MK6-4" urn="urn:adsk.eagle:package:27526/1" type="box">
+<description>Reed Sonsor for PCB Mountung
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="MK6-4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="REED-SWITCH">
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0.635" y2="2.667" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="180"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94" curve="180"/>
+<wire x1="-3.556" y1="2.54" x2="-2.794" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.54" x2="-2.794" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="0" x2="-3.556" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="0" x2="-3.556" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.651" y2="1.27" width="0.0508" layer="94"/>
+<wire x1="-1.651" y1="1.27" x2="-1.905" y2="1.524" width="0.0508" layer="94"/>
+<wire x1="-1.651" y1="1.27" x2="-1.905" y2="1.016" width="0.0508" layer="94"/>
+<wire x1="-2.286" y1="1.524" x2="-2.54" y2="1.27" width="0.0508" layer="94"/>
+<wire x1="-2.286" y1="1.016" x2="-2.54" y2="1.27" width="0.0508" layer="94"/>
+<text x="-3.429" y="2.794" size="0.4064" layer="94">N</text>
+<text x="-3.429" y="-0.635" size="0.4064" layer="94">S</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.556" y1="1.27" x2="-2.794" y2="2.54" layer="94"/>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="REED-SWITCH-" prefix="S">
+<description>&lt;b&gt;Reed Sensor&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="REED-SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MK15-B" package="MK15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27517/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK15-B-2" constant="no"/>
+<attribute name="OC_FARNELL" value="1079484" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CT10-G4" package="CT10-G4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27519/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CT10-1530-G1" package="CT10-G1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27518/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="COTO TECHNOLOGY" constant="no"/>
+<attribute name="MPN" value="CT10-1530-G1" constant="no"/>
+<attribute name="OC_FARNELL" value="1081696" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CT10-A2" package="CT10-A2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27521/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK15-C2" package="MK15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27517/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK15-C-2" constant="no"/>
+<attribute name="OC_FARNELL" value="1079485" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-10" package="MK6-10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27520/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-8-B" package="MK6-8-A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27522/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK6-8-B" constant="no"/>
+<attribute name="OC_FARNELL" value="1079481" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-7" package="MK6-7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27527/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-6" package="MK6-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27523/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-5-B" package="MK6-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27524/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK6-5-B" constant="no"/>
+<attribute name="OC_FARNELL" value="1079479" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-4" package="MK6-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27526/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-5-C" package="MK6-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27524/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK6-5-C" constant="no"/>
+<attribute name="OC_FARNELL" value="1079480" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MK6-8-H" package="MK6-8-A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27522/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MEDER" constant="no"/>
+<attribute name="MPN" value="MK6-8-H" constant="no"/>
+<attribute name="OC_FARNELL" value="1079482" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13174,9 +13641,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="X1" library="Connectors" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/4"/>
-<part name="X2" library="Connectors" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/4"/>
-<part name="X3" library="Connectors" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/4"/>
+<part name="X1" library="Connectors" library_urn="urn:adsk.eagle:library:25621963" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/5"/>
+<part name="X2" library="Connectors" library_urn="urn:adsk.eagle:library:25621963" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/5"/>
+<part name="X3" library="Connectors" library_urn="urn:adsk.eagle:library:25621963" deviceset="ARK-3.5MM" device="APC2" package3d_urn="urn:adsk.eagle:package:24782377/5"/>
 <part name="U$1" library="Modules" deviceset="NRF24L01+" device="" package3d_urn="urn:adsk.eagle:package:24547223/3"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -13191,12 +13658,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.7M"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="4.7M"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="DC3-ISP" library="Connectors" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:24836372/3"/>
-<part name="JP1" library="Connectors" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="DC3-ISP" library="Connectors" library_urn="urn:adsk.eagle:library:25621963" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:24836372/3"/>
+<part name="JP1" library="Connectors" library_urn="urn:adsk.eagle:library:25621963" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:25621971/1"/>
+<part name="LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10"/>
 <part name="S2" library="Modules" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:24754950/2"/>
+<part name="S1" library="switch-reed" deviceset="REED-SWITCH-" device="MK6-6" package3d_urn="urn:adsk.eagle:package:27523/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -13299,11 +13767,11 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="X1" gate="-2" x="134.62" y="-2.54" smashed="yes">
 <attribute name="NAME" x="135.89" y="-3.429" size="1.778" layer="95"/>
 </instance>
-<instance part="X2" gate="-1" x="190.5" y="15.24" smashed="yes">
-<attribute name="NAME" x="191.77" y="14.351" size="1.778" layer="95"/>
+<instance part="X2" gate="-1" x="193.04" y="-2.54" smashed="yes">
+<attribute name="NAME" x="194.31" y="-3.429" size="1.778" layer="95"/>
 </instance>
-<instance part="X2" gate="-2" x="190.5" y="-2.54" smashed="yes">
-<attribute name="NAME" x="191.77" y="-3.429" size="1.778" layer="95"/>
+<instance part="X2" gate="-2" x="193.04" y="15.24" smashed="yes">
+<attribute name="NAME" x="194.31" y="14.351" size="1.778" layer="95"/>
 </instance>
 <instance part="X3" gate="-1" x="-30.48" y="86.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-31.75" y="85.471" size="1.778" layer="95" rot="MR0"/>
@@ -13367,7 +13835,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <attribute name="NAME" x="46.99" y="71.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="43.18" y="114.3" smashed="yes">
+<instance part="LED" gate="G$1" x="43.18" y="114.3" smashed="yes">
 <attribute name="NAME" x="46.736" y="109.728" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.895" y="109.728" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -13381,6 +13849,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="S2" gate="G$1" x="137.16" y="-27.94" smashed="yes">
 <attribute name="NAME" x="134.62" y="-25.4" size="1.27" layer="95"/>
 <attribute name="VALUE" x="134.62" y="-30.48" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="S1" gate="G$1" x="187.96" y="7.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="190.5" y="2.54" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -13445,7 +13916,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED" gate="G$1" pin="A"/>
 <wire x1="43.18" y1="116.84" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13520,15 +13991,18 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="-5.08" x2="170.18" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="K"/>
 <wire x1="170.18" y1="-2.54" x2="170.18" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="-2.54" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="170.18" y="-2.54"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-2.54" x2="170.18" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-2.54" x2="175.26" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="-2.54" x2="175.26" y2="0" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="K"/>
+<wire x1="175.26" y1="-2.54" x2="187.96" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="175.26" y="-2.54"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-2.54" x2="190.5" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-2.54" x2="187.96" y2="0" width="0.1524" layer="91"/>
+<junction x="187.96" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -13660,13 +14134,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <junction x="-35.56" y="15.24"/>
 </segment>
 </net>
-<net name="SWITCH2_WIRE" class="0">
-<segment>
-<pinref part="X2" gate="-1" pin="K"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="AGND" class="0">
 <segment>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
@@ -13787,9 +14254,20 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="X2" gate="-2" pin="K"/>
+<wire x1="185.42" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="15.24" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="12.7" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<junction x="187.96" y="15.24"/>
 </segment>
 </net>
 </nets>
